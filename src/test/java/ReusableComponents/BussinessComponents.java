@@ -31,4 +31,10 @@ public void Exceelsheet(String Username,String pinnumber) {
 	lp.PinNumber(lp.pin, pinnumber);
 	lp.LoginButton(lp.Login);
 }
+public void Bankjsonfle(String username,String password) {
+	lp=new Loginpage(driver);
+	lp.USERNAME(lp.Username,username);
+	lp.PinNumber(lp.pin, password);
+	lp.LoginButton(lp.Login);
+}
 }

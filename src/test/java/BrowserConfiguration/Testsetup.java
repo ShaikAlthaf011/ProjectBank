@@ -23,7 +23,7 @@ public void openbrowser() {
 @AfterMethod
 public void Teardown() {
 	if(driver!=null) {
-		driver.quit();
+		//driver.quit();
 	}
 }
 public static String browser(String Browser) throws IOException {
